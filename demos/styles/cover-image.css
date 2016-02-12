@@ -1,0 +1,8 @@
+.cover-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cover-image img {
+  visibility: hidden;
+}

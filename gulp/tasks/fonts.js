@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
 	srcPath = 'src/',
 	notify = require('gulp-notify'),
-	distPath = 'dist/';
+	distPath = 'demos/';
 
 gulp.task('fonts', function() {
 	gulp

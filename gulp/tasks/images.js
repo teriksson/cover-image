@@ -2,7 +2,7 @@ var gulp = require('gulp'),
 	imagemin = require('gulp-imagemin'),
 	notify = require('gulp-notify'),
 	srcPath = 'src/',
-	distPath = 'dist/';
+	distPath = 'demos/';
 
 gulp.task('images', function() {
 	return gulp.src(srcPath + 'images/**/*')

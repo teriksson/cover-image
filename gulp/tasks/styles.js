@@ -5,7 +5,7 @@ var gulp = require('gulp'),
 	rename = require('gulp-rename'),
 	notify = require('gulp-notify'),
 	srcPath = './src/',
-	distPath = './dist/'
+	distPath = './demos/'
 
 gulp.task('styles', function () {
 	return sass(srcPath + 'styles/cover-image.scss', {

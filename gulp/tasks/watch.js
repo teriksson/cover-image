@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
 	livereload = require('gulp-livereload'),
 	srcPath = 'src/',
-	distPath = 'dist/';
+	distPath = 'demos/';
 
 gulp.task('watch', function() {
 
@@ -17,6 +17,6 @@ gulp.task('watch', function() {
 	// Create LiveReload server
 	livereload.listen();
 
-	// Watch any files in dist/, reload on change
+	// Watch any files in demos/, reload on change
 	gulp.watch([distPath + '**']).on('change', livereload.changed);
 });

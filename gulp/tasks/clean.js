@@ -1,6 +1,6 @@
 var gulp = require('gulp'),
 		del = require('del'),
-		distPath = 'dist/';
+		distPath = './demos/';
 
 gulp.task('clean', function(cb) {
 	del([
