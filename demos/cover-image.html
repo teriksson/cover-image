@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Cover image</title>
+    <link href="../dist/styles/cover-image.css" rel="stylesheet">
+
+    <!-- Demo styles -->
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+
+        .cover-image {
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+
+</head>
+<body>
+
+<img src="images/lars-daniel-rehn.jpg">
+
+<script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="../dist/scripts/cover-image.jquery.js"></script>
+
+
+<!-- Demo scripts -->
+<script>
+    $('img').coverImage();
+</script>
+
+
+</body>
+</html>
